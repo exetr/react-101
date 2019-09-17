@@ -1,0 +1,29 @@
+.eventList {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 70px;
+}
+
+.event:not(:first-of-type) {
+    border-top: 1px solid #d2d6de;
+}
+
+.details {
+    width: 85%;
+    display: inline-block;
+}
+
+.more {
+    width: 15%;
+    display: inline-block;
+    height:100%;
+    margin-bottom: 1.7rem;
+    text-decoration: none;
+    color: #000000;
+}
+.more i {
+    float: right;
+    padding-right: 1rem;
+}
